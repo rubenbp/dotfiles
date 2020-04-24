@@ -1,6 +1,8 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+export DOTFILES_PATH=$HOME/.dotfiles
+
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/ruben/.oh-my-zsh"
 
@@ -98,18 +100,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# -- ALIASES --------------------------
-# uso: port_in_use :4500
-alias port_in_use='lsof -i'
-
-alias all_ports_in_use='sudo lsof -i -P | grep -i "listen"'
-
-alias ..="cd .."
-alias ...="cd ../.."
-alias ....="cd ../../.."
-# alias ll="exa -l"
-# alias la="exa -la"
-# alias ls="exa --grid"
+source $DOTFILES_PATH/shell/init.sh
 
 ## -- FUNCTIONS -----------------------
 
