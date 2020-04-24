@@ -1,0 +1,4 @@
+% utils
+
+# Permite grabar una sesión de consola
+terminalizer --help

@@ -1,0 +1,4 @@
+% system
+
+# Instala los paquetes npm globales
+sh $DOTFILES_PATH/langs/js/install_global_modules.sh
