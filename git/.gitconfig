@@ -1,0 +1,13 @@
+[user]
+	name = Rubén Bernárdez
+	email = ruben.bernardez@biko2.com
+[core]
+	excludesfile = /Users/ruben/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/ruben/.stCommitMsg
