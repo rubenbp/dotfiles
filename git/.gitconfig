@@ -1,13 +1,57 @@
 [user]
 	name = Rubén Bernárdez
-	email = ruben.bernardez@biko2.com
+	email = rubenbp@gmail.com
+
+[fetch]
+	prune = true
+
+[push]
+	default = simple
+
 [core]
-	excludesfile = /Users/ruben/.gitignore_global
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
-[commit]
-	template = /Users/ruben/.stCommitMsg
+	excludesfile = ~/.gitignore_global
+
+[difftool]
+	prompt = false
+
+[apply]
+	# Detect whitespace errors when applying a patch
+	whitespace = fix
+
+[diff]
+	tool = vimdiff
+	compactionHeuristic = true
+	indentHeuristic = true
+
+[credential]
+	helper = osxkeychain
+
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	ui = always
+
+[color "diff"]
+	meta = yellow bold
+	commit = green bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = "red bold 52"
+	newNormal = "green bold"
+	newHighlight = "green bold 22"
+
+[color "branch"]
+	current = yellow reverse
+	local = yellow
+	remote = green
+
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = cyan
