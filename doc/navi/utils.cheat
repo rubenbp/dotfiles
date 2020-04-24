@@ -2,3 +2,7 @@
 
 # Permite grabar una sesión de consola
 terminalizer --help
+
+# Usos comunes de comands
+tldr <command>
+
