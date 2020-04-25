@@ -31,38 +31,68 @@ brew "koekeishiya/formulae/skhd"
 cask "1password"
 cask "android-file-transfer"
 cask "android-platform-tools"
+cask "android-studio"
 cask "appcleaner"
 cask "authy"
+cask "calibre"
+cask "coconutbattery"
+cask "deepl"
+cask "dozer"
+cask "figma"
 cask "firefox-developer-edition"
+cask "flotato"
+cask "folx"
 cask "free-download-manager"
+cask "gitkraken"
 cask "google-backup-and-sync"
+cask "google-drive-file-stream"
 cask "handbrake"
+cask "imageoptim"
+cask "istat-menus"
 cask "iterm2"
+cask "keka"
+cask "keyboardcleantool"
 cask "keycastr"
+cask "krita"
+cask "macx-youtube-downloader"
+cask "microsoft-edge"
+cask "microsoft-teams"
+cask "mongodb-compass-community"
+cask "mounty"
+cask "mysqlworkbench"
 cask "notion"
 cask "obs"
+cask "omnidisksweeper"
+cask "pock"
+cask "postman"
 cask "quicklook-json"
 cask "rectangle"
+cask "skitch"
+cask "skype-for-business"
 cask "slack"
 cask "soda-player"
+cask "sourcetree"
 cask "spotify"
+cask "sublime-text"
 cask "suspicious-package"
 cask "telegram"
+cask "tomighty"
+cask "tunnelblick"
 cask "typora"
+cask "virtualbox"
 cask "visual-studio-code"
 cask "vlc"
 cask "whatsapp"
+cask "xmind"
+cask "xnconvert"
 cask "zoomus"
 mas "Amphetamine", id: 937984704
-mas "Autodesk Pixlr", id: 880663569
 mas "Citrix SSO", id: 1338991513
 mas "Disk Speed Test", id: 425264550
-mas "Draw on My Screen EZ", id: 1082177879
 mas "Duplicate File Finder", id: 1032755628
 mas "GarageBand", id: 682658836
 mas "HP Smart", id: 1474276998
 mas "iMovie", id: 408981434
-mas "iStat Menus", id: 1319778037
 mas "Keynote", id: 409183694
 mas "Kindle", id: 405399194
 mas "Magnet", id: 441258766
@@ -70,13 +100,11 @@ mas "Microsoft Remote Desktop", id: 1295203466
 mas "Monosnap", id: 540348655
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
-mas "Palua", id: 431494195
 mas "PhotoScape X", id: 929507092
 mas "Pocket", id: 568494494
 mas "ScreenBrush", id: 1233965871
 mas "SketchBook", id: 863486266
 mas "Snap", id: 418073146
 mas "TweetDeck", id: 485812721
-mas "WeTransfer", id: 1114922065
 mas "WiFi Signal", id: 525912054
 mas "Xcode", id: 497799835
