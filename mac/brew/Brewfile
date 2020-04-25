@@ -1,0 +1,70 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "koekeishiya/formulae"
+brew "autojump"
+brew "exa"
+brew "fzf"
+brew "git"
+brew "gradle"
+brew "mas"
+brew "navi"
+brew "tldr"
+brew "vim"
+brew "yarn"
+brew "zsh"
+brew "koekeishiya/formulae/skhd"
+cask "1password"
+cask "android-file-transfer"
+cask "android-platform-tools"
+cask "appcleaner"
+cask "authy"
+cask "firefox-developer-edition"
+cask "free-download-manager"
+cask "google-backup-and-sync"
+cask "handbrake"
+cask "iterm2"
+cask "keycastr"
+cask "notion"
+cask "obs"
+cask "quicklook-json"
+cask "rectangle"
+cask "slack"
+cask "soda-player"
+cask "spotify"
+cask "suspicious-package"
+cask "telegram"
+cask "typora"
+cask "visual-studio-code"
+cask "vlc"
+cask "whatsapp"
+cask "zoomus"
+mas "Amphetamine", id: 937984704
+mas "Autodesk Pixlr", id: 880663569
+mas "Citrix SSO", id: 1338991513
+mas "Disk Speed Test", id: 425264550
+mas "Draw on My Screen EZ", id: 1082177879
+mas "Duplicate File Finder", id: 1032755628
+mas "GarageBand", id: 682658836
+mas "HP Smart", id: 1474276998
+mas "iMovie", id: 408981434
+mas "iStat Menus", id: 1319778037
+mas "Keynote", id: 409183694
+mas "Kindle", id: 405399194
+mas "Magnet", id: 441258766
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "Monosnap", id: 540348655
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Palua", id: 431494195
+mas "PhotoScape X", id: 929507092
+mas "Pocket", id: 568494494
+mas "ScreenBrush", id: 1233965871
+mas "SketchBook", id: 863486266
+mas "Snap", id: 418073146
+mas "TweetDeck", id: 485812721
+mas "WeTransfer", id: 1114922065
+mas "WiFi Signal", id: 525912054
+mas "Xcode", id: 497799835
