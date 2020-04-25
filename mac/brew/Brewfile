@@ -4,17 +4,29 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "koekeishiya/formulae"
+# Shell extension to jump to frequently used directories
 brew "autojump"
+# Modern replacement for 'ls'
 brew "exa"
+# Command-line fuzzy finder written in Go
 brew "fzf"
+# Distributed revision control system
 brew "git"
+# Open-source build automation tool based on the Groovy and Kotlin DSL
 brew "gradle"
+# Mac App Store command-line interface
 brew "mas"
+# Interactive cheatsheet tool for the command-line
 brew "navi"
+# Simplified and community-driven man pages
 brew "tldr"
+# Vi 'workalike' with many additional features
 brew "vim"
+# JavaScript package manager
 brew "yarn"
+# UNIX shell (command interpreter)
 brew "zsh"
+# Simple hotkey-daemon for macOS.
 brew "koekeishiya/formulae/skhd"
 cask "1password"
 cask "android-file-transfer"
