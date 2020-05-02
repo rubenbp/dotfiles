@@ -2,6 +2,12 @@ export NAVI_PATH="$DOTFILES_PATH/doc/navi"
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home
 export ANDROID_SDK_ROOT=~/Library/Android/sdk
 export ANDROID_HOME=~/Library/Android/sdk
+export HOMEBREW_BUNDLE_FILE_PATH="${DOTFILES_PATH}/mac/brew/Brewfile"
+
+export FZF_DEFAULT_OPTS='--height 50% --layout=reverse'
+
+# export LANG="en_US.UTF-8"
+# export LC_ALL="en_US.UTF-8"
 
 paths=(
   "$HOME/.dotfiles/bin"
