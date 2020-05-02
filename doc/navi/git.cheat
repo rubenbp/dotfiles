@@ -1,0 +1,4 @@
+% git
+
+# Elimina las ramas locales que han sido borradas en remoto
+git fetch -p && for branch in $(LC_ALL=en_US.UTF-8 git branch -vv | grep ': gone]' | awk '{print $1}'); do git branch -D $branch; done

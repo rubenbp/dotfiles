@@ -8,5 +8,3 @@ $ service: brew services list | grep stopped | awk '{print $1}'
 # Stop all services
 brew services stop --all
 
-# Update dump of brew software
-cd $DOTFILES_PATH/mac/brew && brew bundle dump --force --describe
