@@ -6,6 +6,8 @@ tap "homebrew/services"
 tap "koekeishiya/formulae"
 # Shell extension to jump to frequently used directories
 brew "autojump"
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
 # Modern replacement for 'ls'
 brew "exa"
 # Command-line fuzzy finder written in Go
@@ -18,6 +20,8 @@ brew "gradle"
 brew "mas"
 # Interactive cheatsheet tool for the command-line
 brew "navi"
+# Interpreted, interactive, object-oriented programming language
+brew "python"
 # Simplified and community-driven man pages
 brew "tldr"
 # Vi 'workalike' with many additional features
@@ -92,6 +96,7 @@ mas "Duplicate File Finder", id: 1032755628
 mas "GarageBand", id: 682658836
 mas "HP Smart", id: 1474276998
 mas "iMovie", id: 408981434
+mas "iStat Menus", id: 1319778037
 mas "Keynote", id: 409183694
 mas "Kindle", id: 405399194
 mas "Magnet", id: 441258766
