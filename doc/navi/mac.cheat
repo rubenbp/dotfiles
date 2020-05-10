@@ -1,0 +1,12 @@
+% mac, osx
+
+# Show items in desktop
+defaults write com.apple.finder CreateDesktop -bool true; \
+   killall Finder
+
+# Hide items in desktop
+defaults write com.apple.finder CreateDesktop -bool false; \
+   killall Finder
+
+# Remove <file_or_dir>'s `@` attribute
+xattr -rc <file_or_dir>

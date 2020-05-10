@@ -2,3 +2,35 @@
 
 # Elimina las ramas locales que han sido borradas en remoto
 git fetch -p && for branch in $(LC_ALL=en_US.UTF-8 git branch -vv | grep ': gone]' | awk '{print $1}'); do git branch -D $branch; done
+
+# Set global git user name
+git config --global user.name <name>
+
+# Checkout to branch
+git checkout <branch>
+
+# Set global git user email
+git config --global user.email <email>
+
+# Stage single or multiple files
+cd <toplevel_directory>; \
+    git add <changed_files>;
+
+# Displays formatted log of commits for a repo
+git log --all --decorate --oneline --graph
+
+# Clear all excepts ignore files
+git clean -df
+
+# Clear everything (include ingore files)
+git clean -dxf
+
+# Update module without init
+git submodule update
+
+# Update all submodules
+git submodule update --init --recursive
+
+$ branch: git branch | awk '{print $NF}'
+$ toplevel_directory: git rev-parse --show-toplevel
+$ changed_files: git status --untracked-files=all -s --porcelain | awk '{print $NF}' --- --multi true
