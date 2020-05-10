@@ -4,7 +4,7 @@ export ANDROID_SDK_ROOT=~/Library/Android/sdk
 export ANDROID_HOME=~/Library/Android/sdk
 export HOMEBREW_BUNDLE_FILE_PATH="${DOTFILES_PATH}/mac/brew/Brewfile"
 
-export FZF_DEFAULT_OPTS='--height 50% --layout=reverse'
+export FZF_DEFAULT_OPTS='--layout=reverse'
 
 # export LANG="en_US.UTF-8"
 # export LC_ALL="en_US.UTF-8"

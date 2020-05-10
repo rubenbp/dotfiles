@@ -9,3 +9,8 @@ alias ....="cd ../../.."
 # alias ll="exa -l"
 # alias la="exa -la"
 # alias ls="exa --grid"
+
+alias ~="cd ~"
+alias dotfiles="cd ~/.dotfiles"
+
+alias k="kill -9"
