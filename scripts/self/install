@@ -25,9 +25,8 @@ if platform::is_macos; then
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   fi
 
-  # All apps (This line is 2 times because there are dependencies between brew cask and brew)
-  brew bundle --file="$DOTFILES_PATH/mac/brew/Brewfile" || true
-  brew bundle --file="$DOTFILES_PATH/mac/brew/Brewfile"
+  brew bundle --file="$DOTFILES_PATH/mac/brew/Brewfile" --force
+  echo "Brew apps imported!"
 
   # Correct paths (so, we handle all with $PATH)
   sudo truncate -s 0 /etc/paths
@@ -47,6 +46,10 @@ xargs npm install -g <"$DOTFILES_PATH/langs/js/global_modules.txt"
 
 log::note "Setting ZSH as the default shell"
 chsh -s "$(command -v zsh)"
+
+sh "$DOTFILES_PATH/symlinks/remove_links.sh"
+sh "$DOTFILES_PATH/symlinks/links.sh"
+echo "Symlinks added!"
 
 # read -rp "🦑 Git config: What is you email? " git_email
 # read -rp "🐙 Git config: And your name? " git_name
