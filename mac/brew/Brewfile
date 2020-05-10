@@ -22,8 +22,12 @@ brew "mas"
 brew "navi"
 # Interpreted, interactive, object-oriented programming language
 brew "python"
+# User interface to the TELNET protocol
+brew "telnet"
 # Simplified and community-driven man pages
 brew "tldr"
+# Instant terminal sharing
+brew "tmate"
 # Vi 'workalike' with many additional features
 brew "vim"
 # JavaScript package manager
@@ -39,6 +43,7 @@ cask "android-studio"
 cask "appcleaner"
 cask "authy"
 cask "calibre"
+cask "cheatsheet"
 cask "coconutbattery"
 cask "deepl"
 cask "dozer"
