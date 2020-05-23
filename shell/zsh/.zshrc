@@ -184,3 +184,6 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 # Launch navi with ^g
 source <(navi widget zsh)
+
+# Start starship
+eval "$(starship init zsh)"
