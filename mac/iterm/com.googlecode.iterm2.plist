@@ -538,7 +538,7 @@
 	<key>NSWindow Frame NSNavPanelAutosaveName</key>
 	<string>441 -594 799 448 73 -960 1536 937 </string>
 	<key>NSWindow Frame ProfilesPanel</key>
-	<string>0 356 735 382 0 0 1920 1057 </string>
+	<string>858 255 735 382 0 0 1920 1057 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>650 498 620 392 0 0 1920 1057 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
@@ -1129,7 +1129,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>Monaco 14</string>
+			<string>Menlo-Regular 11</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
@@ -1207,7 +1207,7 @@
 			<key>Visual Bell</key>
 			<true/>
 			<key>Window Type</key>
-			<integer>12</integer>
+			<integer>15</integer>
 			<key>Working Directory</key>
 			<string>/Users/ruben</string>
 		</dict>
@@ -1234,9 +1234,9 @@
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
-		<string>{{73, -960}, {1536, 960}}</string>
+		<string>{{0, 0}, {1920, 1080}}</string>
 		<key>topLeft</key>
-		<string>{314, -163}</string>
+		<string>{248, 673}</string>
 	</dict>
 	<key>NoSyncHaveUsedCopyMode</key>
 	<true/>
@@ -1245,7 +1245,11 @@
 	<key>NoSyncLastTipTime</key>
 	<real>609705857.94395697</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>47</integer>
+	<integer>53</integer>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
+	<true/>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
+	<integer>0</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
 	<real>601205098.63979006</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
@@ -2043,6 +2047,8 @@
 	</array>
 	<key>OnlyWhenMoreTabs</key>
 	<false/>
+	<key>PMPrintingExpandedStateForPrint2</key>
+	<false/>
 	<key>PerPaneBackgroundImage</key>
 	<true/>
 	<key>PointerActions</key>
@@ -2080,6 +2086,8 @@
 	</dict>
 	<key>PrefsCustomFolder</key>
 	<string>/Users/ruben/.dotfiles/mac/iterm</string>
+	<key>Print In Black And White</key>
+	<true/>
 	<key>PromptOnQuit</key>
 	<false/>
 	<key>SUEnableAutomaticChecks</key>
@@ -2091,7 +2099,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-04-28T15:44:20Z</date>
+	<date>2020-05-23T07:38:55Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateGroupIdentifier</key>
