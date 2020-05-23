@@ -1,5 +1,6 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
@@ -8,6 +9,8 @@ tap "koekeishiya/formulae"
 brew "autojump"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Secure runtime for JavaScript and TypeScript
+brew "deno"
 # Modern replacement for 'ls'
 brew "exa"
 # Command-line fuzzy finder written in Go
@@ -22,6 +25,8 @@ brew "mas"
 brew "navi"
 # Interpreted, interactive, object-oriented programming language
 brew "python"
+# The cross-shell prompt for astronauts
+brew "starship"
 # User interface to the TELNET protocol
 brew "telnet"
 # Simplified and community-driven man pages
@@ -51,6 +56,7 @@ cask "figma"
 cask "firefox-developer-edition"
 cask "flotato"
 cask "folx"
+cask "font-firacode-nerd-font"
 cask "free-download-manager"
 cask "gitkraken"
 cask "google-backup-and-sync"
@@ -62,6 +68,7 @@ cask "keka"
 cask "keyboardcleantool"
 cask "keycastr"
 cask "krita"
+cask "libreoffice"
 cask "macx-youtube-downloader"
 cask "microsoft-edge"
 cask "microsoft-teams"
@@ -79,6 +86,7 @@ cask "skitch"
 cask "skype-for-business"
 cask "slack"
 cask "soda-player"
+cask "softmaker-freeoffice"
 cask "sourcetree"
 cask "spotify"
 cask "sublime-text"
