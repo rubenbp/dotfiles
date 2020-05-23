@@ -3,13 +3,17 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Hom
 export ANDROID_SDK_ROOT=~/Library/Android/sdk
 export ANDROID_HOME=~/Library/Android/sdk
 export HOMEBREW_BUNDLE_FILE_PATH="${DOTFILES_PATH}/mac/brew/Brewfile"
-
+export STARSHIP_CONFIG="${DOTFILES_PATH}/mac/starship/starship.toml"
 export FZF_DEFAULT_OPTS='--layout=reverse'
+export NVM_DIR="$HOME/.nvm"
 
 # export LANG="en_US.UTF-8"
 # export LC_ALL="en_US.UTF-8"
 
 paths=(
+  # para establecer la versión de node por defecto, pudiendo cargar nvm lazy
+  "$NVM_DIR/versions/node/$DEFAULT_NODE_VERSION/bin"
+
   "$HOME/.dotfiles/bin"
   "$HOME/bin"
   "$DOTFILES_PATH/bin"

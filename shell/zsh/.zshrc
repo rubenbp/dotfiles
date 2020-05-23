@@ -1,6 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-
+export DEFAULT_NODE_VERSION="v12.16.1"
 export DOTFILES_PATH=$HOME/.dotfiles
 
 # Path to your oh-my-zsh installation.
@@ -10,7 +10,7 @@ export ZSH="/Users/ruben/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="avit"
+# ZSH_THEME="avit"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -138,8 +138,7 @@ bindkey '^r' _reverse_search
 #   fi
 # }
 
-## -- NVM --------------------------
-export NVM_DIR="$HOME/.nvm"
+## -- NVM LAZY --------------------------
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
 nvm() {
 	unset -f nvm node npm
