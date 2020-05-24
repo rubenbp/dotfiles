@@ -10,3 +10,7 @@ defaults write com.apple.finder CreateDesktop -bool false; \
 
 # Remove <file_or_dir>'s `@` attribute
 xattr -rc <file_or_dir>
+
+# Restart bluetooth service
+sudo kextunload -b com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport
+sudo kextload -b com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport

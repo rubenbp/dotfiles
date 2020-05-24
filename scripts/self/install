@@ -61,4 +61,24 @@ echo "Symlinks added!"
 # git config --global --unset tag.gpgsign
 # git config --global --unset gpg.program
 
+# set pretty diff on terminal
+git config --global core.pager "diff-so-fancy" | less -RFX
+
+# lines around each diff
+git config --global diff.context 5
+
+# Better conflict handling. Add merges common ancestors
+git config --global merge.conflictstyle diff3
+
+# Always push new tags
+git config --global push.followTags truncate
+
+# Before rebase stash files, apply rebase and apply stash automatically
+git config --global rebase.autostash true
+
+# Alias to undo last commits. Example: git undo 2 (remove las 2 commits)
+git config --global alias.undo '!f() { \
+    git reset --hard $(git rev-parse --abbrev-ref HEAD)@{${1-1}}; \
+}; f'
+
 log::success "✅ All done!"

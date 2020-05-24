@@ -7,9 +7,11 @@
 
 [push]
 	default = simple
+	followTags = truncate
 
 [core]
 	excludesfile = ~/.gitignore_global
+	pager = diff-so-fancy
 
 [difftool]
 	prompt = false
@@ -22,6 +24,7 @@
 	tool = vimdiff
 	compactionHeuristic = true
 	indentHeuristic = true
+	context = 5
 
 [credential]
 	helper = osxkeychain
@@ -63,3 +66,8 @@
 [mergetool "sourcetree"]
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
+	
+[merge]
+	conflictstyle = diff3
+[alias]
+	undo = "!f() { \\\n    git reset --hard $(git rev-parse --abbrev-ref HEAD)@{${1-1}}; \\\n}; f"
