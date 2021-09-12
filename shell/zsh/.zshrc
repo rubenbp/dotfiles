@@ -186,3 +186,5 @@ source <(navi widget zsh)
 
 # Start starship
 eval "$(starship init zsh)"
+
+nvm use 14

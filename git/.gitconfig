@@ -1,16 +1,15 @@
 [user]
-	name = Rubén Bernárdez
-	email = rubenbp@gmail.com
+	name = Ruben Bernardez Patier
+	email = ruben.bernardez@biko2.com
 
 [fetch]
 	prune = true
 
 [push]
 	default = simple
-	followTags = truncate
 
 [core]
-	excludesfile = ~/.gitignore_global
+	excludesfile = /Users/ruben/.gitignore_global
 	pager = diff-so-fancy
 
 [difftool]
@@ -71,3 +70,5 @@
 	conflictstyle = diff3
 [alias]
 	undo = "!f() { \\\n    git reset --hard $(git rev-parse --abbrev-ref HEAD)@{${1-1}}; \\\n}; f"
+[commit]
+	template = /Users/ruben/.stCommitMsg

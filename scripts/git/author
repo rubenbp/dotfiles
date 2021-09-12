@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+source "$DOTFILES_PATH/scripts/core/_main.sh"
+
+##? Change author email
+#?? 1.0.0
+##?
+##? Usage:
+##?    author [biko] [self]
+
+docs::eval_help "$@"
+
+if [[ "$1" == "biko" ]] ; then
+  git config --global user.email "ruben.bernardez@biko2.com"
+  echo "Changed email to: ruben.bernardez@biko2.com"
+else
+  git config --global user.email "rubenbp@gmail.com"
+  echo "Changed email to: rubenbp@gmail.com"
+fi
+
