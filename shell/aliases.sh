@@ -1,3 +1,4 @@
+alias sudo="sudo "
 # uso: port_in_use :4500
 alias port_in_use='lsof -i'
 
